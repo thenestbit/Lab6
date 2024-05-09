@@ -1,0 +1,41 @@
+<cities>
+	<city>
+		<id>1</id>
+		<name>a</name>
+		<coordinates>Coordinates: (x=1.0, y=1.0)</coordinates>
+		<creationDate>Thu Apr 11 13:30:07 MSK 2024</creationDate>
+		<area>1</area>
+		<population>11</population>
+		<metersAboveSeaLevel>10000.0</metersAboveSeaLevel>
+		<telephoneCode>1</telephoneCode>
+		<agglomeration>1</agglomeration>
+		<standardOfLiving>LOW</standardOfLiving>
+		<governor>a</governor>
+	</city>
+	<city>
+		<id>7314749205110644423</id>
+		<name>Zalupogorsk</name>
+		<coordinates>Coordinates: (x=14.0, y=88.0)</coordinates>
+		<creationDate>Mon May 06 14:45:01 MSK 2024</creationDate>
+		<area>123</area>
+		<population>666</population>
+		<metersAboveSeaLevel>1337000.0</metersAboveSeaLevel>
+		<telephoneCode>911</telephoneCode>
+		<agglomeration>3</agglomeration>
+		<standardOfLiving>LOW</standardOfLiving>
+		<governor>null</governor>
+	</city>
+	<city>
+		<id>6200421614707120010</id>
+		<name>aa</name>
+		<coordinates>Coordinates: (x=1.0, y=1.0)</coordinates>
+		<creationDate>Tue May 07 18:12:05 MSK 2024</creationDate>
+		<area>1</area>
+		<population>1</population>
+		<metersAboveSeaLevel>1.0</metersAboveSeaLevel>
+		<telephoneCode>1</telephoneCode>
+		<agglomeration>1</agglomeration>
+		<standardOfLiving>LOW</standardOfLiving>
+		<governor>null</governor>
+	</city>
+</cities>
