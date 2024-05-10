@@ -30,7 +30,7 @@ public class Server {
     public void run(String[] args){
 
         try {
-            var pathToCollection = args[0]; //"collection.xml"
+            var pathToCollection = System.getenv("PATH_TO_JSON"); //"collection.xml"
             XMLProvider xmlProvider = new XMLProvider(String.valueOf(pathToCollection));
             xmlProvider.load();
 

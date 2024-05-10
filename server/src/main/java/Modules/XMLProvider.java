@@ -35,7 +35,7 @@ public class XMLProvider implements DataProvider {
                 writer.write("\t<city>\n");
                 writer.write("\t\t<id>" + city.getId() + "</id>\n");
                 writer.write("\t\t<name>" + city.getName() + "</name>\n");
-                writer.write("\t\t<coordinates>" + city.getCoordinates() + "</coordinates>\n");
+                writer.write("\t\t<coordinates>" + city.getCoordinates().toString() + "</coordinates>\n");
                 writer.write("\t\t<creationDate>" + city.getCreationDate() + "</creationDate>\n");
                 writer.write("\t\t<area>" + city.getArea() + "</area>\n");
                 writer.write("\t\t<population>" + city.getPopulation() + "</population>\n");
@@ -194,7 +194,7 @@ public class XMLProvider implements DataProvider {
             return new Coordinates(x, y);
         } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
             System.out.println("Some coordinates are invalid. Default value set.");;
-            return null;
+            return new Coordinates(0F,0F);
         }
     }
 
